@@ -2,16 +2,16 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 
-const IndexPage = () => {
+const AboutPage = () => {
   return (
     <Layout>
-      <h1>Hi</h1>
-      <p>My name is raihan</p>
+      <h1>About Me</h1>
+      <p>My name kepo haha</p>
       <p>
-        Need a developer ? <Link to="/contact">Contact me</Link>
+        Contact <Link to="/contact">Me</Link>
       </p>
     </Layout>
   )
 }
 
-export default IndexPage
+export default AboutPage
